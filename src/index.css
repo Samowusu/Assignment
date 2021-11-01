@@ -16,7 +16,7 @@ code {
 
 .layout {
   display: flex;
-  height: 560px;
+  height: 800px;
   align-items: center;
   justify-content: space-between;
   padding: 60px 0 ;
@@ -36,4 +36,10 @@ code {
     padding: 0;
   }
   
+}
+
+@media (max-width : 900px) {
+  .layout {
+    height: 600px;
+  }
 }

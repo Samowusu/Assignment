@@ -98,3 +98,14 @@
         margin-left: 10px;
     }
 }
+
+@media (max-width: 900px) {
+    .nav ul {
+        display: none;
+    }
+
+    .toggleButton {
+        display: flex;
+        margin-right: 20px;
+    }
+}

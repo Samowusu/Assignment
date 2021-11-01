@@ -13,6 +13,10 @@ const SneakerImages = () => {
              <div className={classes.thirdImage}/>
              <div className={classes.fourthImage}/>
          </div>
+         <div className={classes.buttons}>
+             <button className={classes.prevButton}>&#8249;</button>
+             <button className={classes.nextButton}>&#8250;</button>
+         </div>
         </div>
     </div>
     );
